@@ -1,0 +1,47 @@
+.container {
+    margin: 10px auto;
+    border: 1px solid rgb(0, 110, 255);
+    width: fit-content;
+
+    /* padding: 10px; */
+
+}
+
+#field {
+    margin: 0 auto;
+    border: 3px solid rgb(0, 116, 0);
+    border-radius: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT42EqxgN7z0H28bDU7L0SBW2uXQeLmObNfA&s');
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+}
+
+#ball {
+    /* fi */
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    animation: spin 2s  linear infinite;
+
+    /* variables */
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/OIP.jpg);
+    /* left: calc(500px - 50px - 6px);
+    top: calc(300px - 50px - 6px); */
+}
+
+@keyframes spin {
+    /* 0% { transform: rotate(0deg); } */
+    /* 100% { transform: rotate(360deg); } */
+}
+
+#control {
+    margin: 10px;
+    /* border: 1px solid blue; */
+}

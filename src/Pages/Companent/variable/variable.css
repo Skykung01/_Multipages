@@ -1,0 +1,21 @@
+.variables{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  width: 30rem;
+}
+
+.variables-container{
+    display: flex;
+}
+
+.variables-container > div {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 70, 70);
+}
+

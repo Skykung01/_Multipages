@@ -1,0 +1,56 @@
+.Home-container {
+    text-align: center;
+    border: 1px solid black;
+    height: 600px;
+}
+
+#img-myself img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    transform: translate(-50%, -50%);
+}
+
+.Eng-name {
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 320px;
+}
+
+.Thai-name {
+    color: #000;
+    font-size: 40px;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+}
+
+.card-home {
+    margin: 3rem 3rem;
+    border: 3px solid rgb(0, 116, 0);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+}
+
+.card-me {
+    color: #000;
+    position: relative;
+    margin: -30rem 25rem;
+    background-size: 100%;
+    width: 500px;
+    height: 300px;
+    text-align: left;
+}
+
+.card-text{
+    color: #000;
+}

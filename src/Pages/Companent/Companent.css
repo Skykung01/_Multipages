@@ -1,0 +1,78 @@
+#root {
+
+    text-align: center;
+  }
+  
+  .ab > span{
+    text-align: center;
+  
+  }
+  
+  *{
+    color: rgb(189, 0, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .span{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .span span{
+    pointer-events: none;
+  }
+  
+  .cc span{
+    text-align: center;
+  
+  }
+  
+  /* .grid-container{
+    max-width: 1080px;
+    margin: 0 auto;
+  
+    ;
+  }
+  .grid-item{
+    
+  }
+  
+  
+  .products-container{
+    display: grid;
+    grid-gap: 10px;
+  } */
+  
+  .grid-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHByb3BvcnRpb258ZW58MHx8fHwxNjk3MjE0NTI1&ixlib=rb-4.0.3&q=80&w=1080);
+  }
+  
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: rgba(189, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .counter-timer {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  
+  
+  .temperatures {
+    grid-column: 1 / -1; 
+  }
+  
